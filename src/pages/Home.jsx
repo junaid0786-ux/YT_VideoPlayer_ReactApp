@@ -26,7 +26,7 @@ const Home = () => {
   };
 
   const handleDownload = () =>
-    alert("Download feature is disabled .");
+    alert("Download feature is disabled in this demo.");
 
   const handleLoadAndPlay = () => {
     if (
@@ -37,7 +37,7 @@ const Home = () => {
     ) {
       setShouldPlay(true);
     } else {
-      alert("Please paste a valid YouTube URL.");
+      alert("Please paste a valid YouTube or Vimeo URL.");
     }
   };
 
