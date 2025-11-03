@@ -10,7 +10,6 @@ const Loader = () => {
                    overflow-hidden flex items-center justify-center"
         animate={{
           scale: [1, 1.05, 1],
-          borderRadius: ["50%", "45%", "50%"],
         }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
